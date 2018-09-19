@@ -1,2 +1,7 @@
 attendees = ['Ken', 'Alena', 'Treasure']
-print('There are', len(attendees), 'attendees currently')
+
+attendees.append("Ashley")
+attendees.extend(["James","Guil"])
+optional_invitees = ["Ben","Dave"]
+potential_attendees = attendees + optional_invitees
+print('There are', len(potential_attendees), 'potential attendees currently')
