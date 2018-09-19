@@ -8,3 +8,7 @@ books = [
          ]
 
 print("Suggested gift: {}".format(books[0]))
+
+print("Books:")
+for book in books:
+    print("* " + book)
