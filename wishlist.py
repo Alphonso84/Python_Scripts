@@ -14,6 +14,7 @@ video_games = [
 
 
 def display_wishlist(display_name, wishes):
+    #items = wishes.copy()
     print(display_name + ":")
     suggested_gift = wishes.pop(0)
     print("======>", suggested_gift, "<======")
@@ -23,3 +24,5 @@ def display_wishlist(display_name, wishes):
 
 display_wishlist("Books", books)
 display_wishlist("Video Games", video_games)
+display_wishlist("Video Games", video_games)
+
