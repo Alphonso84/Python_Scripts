@@ -5,7 +5,7 @@ password = input("Please enter a password:        ")
 attempt_count = 1
 
 while password != MASTER_PASSWORD:
-    if attempt_count > 3:
+    if attempt_count > 4:
         sys.exit("Too many Invalid Attempts")
     password = input("Invalid Password. Try Again:     ")
     attempt_count += 1
